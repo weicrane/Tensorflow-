@@ -10,3 +10,4 @@ hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 # Run graph。
 print (sess.run(hello).decode())
+sess.close()
